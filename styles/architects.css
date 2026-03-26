@@ -54,6 +54,9 @@ main > section{
 }
 
 /* header styles */
+.look{
+  margin-left: 50px;
+}
 
 /* navbar related styles */
 .navbar {
@@ -117,6 +120,31 @@ main > section{
 
 #quick-list{
   font-weight: 500;
+}
+/* feature section related styles */
+.features{
+  gap: 100px;
+}
+
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+  margin-left: 50px;
+}
+
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-left: 50px;
+}
+
+.feature-card .feature-title{
+  font-weight:  600;
+  font-family: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* some facts related styles */
