@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+.puku{
+  margin-left: 50px;
+}
+
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -108,15 +112,50 @@ main > section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  margin-left: 50px;
 }
 
 .our-features{
-  margin-left: 130px;
+  margin-left: 50px;
   max-width: 530px;
+  margin-right: 50px;
 }
 
 #quick-list{
   font-weight: 500;
+}
+
+/* some facts related styles */
+.facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.fact-number{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-name{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.fact-description{
+  max-width: 540px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
